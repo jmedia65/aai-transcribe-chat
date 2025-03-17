@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+assets/
+backup/
+*.py[cod]
+*$py.class
+.env
+.streamlit/secrets.toml
+temp_audio.mp3
+_tutor_url.txt

@@ -23,7 +23,7 @@ A Streamlit application that transcribes audio files and enables conversational 
 
    ```
    git clone https://github.com/jmedia65/aai-transcribe-chat.git
-   cd audio-transcription-app
+   cd aai-transcribe-chat
    ```
 
 2. Install dependencies:

@@ -4,6 +4,16 @@ import assemblyai as aai
 # Set page configuration
 st.set_page_config(page_title="Audio Transcription App", layout="wide")
 
+# Hide the menu button and other default elements
+hide_streamlit_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+</style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 # API Key handling - in the main area for visibility
 api_key_col1, api_key_col2, api_key_col3 = st.columns([1, 3, 1])
 
